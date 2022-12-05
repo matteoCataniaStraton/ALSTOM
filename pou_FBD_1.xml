@@ -3,7 +3,6 @@
    <programs>
       <pou name="FBD_1" kind="program" period="1" phase="0" lge="FBD">
          <vargroup name="FBD_1" kind="LOCAL">
-            <var name="Inst_blink" type="blink"/>
             <var name="bCommand" type="BOOL" init="TRUE">
          <varinfo type="tag" data="Main command"/>
          <varinfo type="desc" data="main activation command"/>
@@ -16,7 +15,7 @@
          <varinfo type="tag" data="Fast command"/>
          <varinfo type="desc" data="make it faster"/>
             </var>
-            <var name="Blink1" type="blink">
+            <var name="MyBlink" type="blink">
          <varinfo type="desc" data="the &quot;blink&quot; function block"/>
             </var>
             <var name="bOut" type="BOOL">
@@ -35,8 +34,8 @@ This project demonstrates a simple use of the &quot;BLINK&quot; function block f
             <FBDvrail kind="LEFT" id="7" order="0" dx="1" dy="8" sy="3" style="0"/>
             <FBDcontact kind="I" id="17" order="0" dx="4" dy="8" sx="2" sy="2" symbol="bCommand" style="0"/>
             <FBDjump id="18" order="0" dx="8" dy="9" sx="5" sy="1" style="0" label="&lt;RETURN&gt;"/>
-            <FBDbox id="11" order="0" dx="26" dy="14" sx="5" sy="4" nbi="2" nbo="1" style="0" kind="FB" type="blink" inst="Inst_blink"/>
-            <FBDvarbox id="3" order="0" dx="32" dy="15" sx="8" sy="3" symbol="bOut" style="0"/>
+            <FBDbox id="11" order="0" dx="26" dy="14" sx="5" sy="4" nbi="2" nbo="1" style="0" kind="FB" type="blink" inst="MyBlink"/>
+            <FBDvarbox id="3" order="0" dx="33" dy="14" sx="8" sy="3" symbol="bOut" style="0"/>
             <FBDvarbox id="4" order="0" dx="1" dy="16" sx="8" sy="2" symbol="bFast" style="0"/>
             <FBDbox id="13" order="0" dx="15" dy="16" sx="3" sy="4" nbi="3" nbo="1" style="0" kind="OP" type="sel"/>
             <FBDvarbox id="2" order="0" dx="21" dy="16" sx="3" sy="1" symbol="TRUE" style="0"/>
@@ -78,9 +77,9 @@ This project demonstrates a simple use of the &quot;BLINK&quot; function block f
             </FBDline>
             <FBDline negate="0" idfrom="11" idto="3" pinfrom="0" pinto="0" cutx="50" cuty="50">
                <FBDlinepoint xcell="31" ycell="16" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="31" ycell="16" xincell="8" yincell="8"/>
-               <FBDlinepoint xcell="31" ycell="15" xincell="8" yincell="8"/>
-               <FBDlinepoint xcell="32" ycell="15" xincell="1" yincell="8"/>
+               <FBDlinepoint xcell="32" ycell="16" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="32" ycell="14" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="33" ycell="14" xincell="1" yincell="8"/>
             </FBDline>
             <FBDline negate="0" idfrom="12" idto="11" pinfrom="0" pinto="1" cutx="50" cuty="50">
                <FBDlinepoint xcell="24" ycell="19" xincell="0" yincell="8"/>
