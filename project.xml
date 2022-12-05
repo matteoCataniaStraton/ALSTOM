@@ -91,6 +91,6 @@
       <pou name="SFC_1_child" sect="child" lge="SFC" parent="SFC_1"/>
       <pou name="Ladder_1" sect="end" lge="LD"/>
       <pou name="FBD_1" sect="end" lge="FBD"/>
-      <pou name="ST_1" sect="end" lge="ST"/>
+      <pou name="ST_2" sect="end" lge="ST"/>
    </poulist>
 </K5project>
