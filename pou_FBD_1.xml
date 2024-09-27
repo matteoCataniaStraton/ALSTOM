@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <K5project version="1.1">
    <programs>
       <pou name="FBD_1" kind="program" period="1" phase="0" lge="FBD">
@@ -47,14 +47,14 @@ This project demonstrates a simple use of the &quot;BLINK&quot; function block f
             <FBDvarbox id="14" order="0" dx="8" dy="22" sx="2" sy="1" symbol="2" style="0"/>
             <FBDline negate="0" idfrom="2" idto="11" pinfrom="0" pinto="0" cutx="50" cuty="50">
                <FBDlinepoint xcell="24" ycell="16" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="25" ycell="16" xincell="1" yincell="8"/>
-               <FBDlinepoint xcell="25" ycell="16" xincell="1" yincell="8"/>
+               <FBDlinepoint xcell="24" ycell="16" xincell="14" yincell="8"/>
+               <FBDlinepoint xcell="24" ycell="16" xincell="14" yincell="8"/>
                <FBDlinepoint xcell="26" ycell="16" xincell="1" yincell="8"/>
             </FBDline>
             <FBDline negate="0" idfrom="4" idto="13" pinfrom="0" pinto="0" cutx="50" cuty="50">
                <FBDlinepoint xcell="9" ycell="16" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="11" ycell="16" xincell="15" yincell="8"/>
-               <FBDlinepoint xcell="11" ycell="17" xincell="15" yincell="8"/>
+               <FBDlinepoint xcell="11" ycell="16" xincell="10" yincell="8"/>
+               <FBDlinepoint xcell="11" ycell="17" xincell="10" yincell="8"/>
                <FBDlinepoint xcell="15" ycell="17" xincell="1" yincell="8"/>
             </FBDline>
             <FBDline negate="0" idfrom="7" idto="17" pinfrom="0" pinto="0" cutx="50" cuty="50">
@@ -77,32 +77,32 @@ This project demonstrates a simple use of the &quot;BLINK&quot; function block f
             </FBDline>
             <FBDline negate="0" idfrom="11" idto="3" pinfrom="0" pinto="0" cutx="50" cuty="50">
                <FBDlinepoint xcell="31" ycell="16" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="32" ycell="16" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="32" ycell="14" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="31" ycell="16" xincell="14" yincell="8"/>
+               <FBDlinepoint xcell="31" ycell="14" xincell="14" yincell="8"/>
                <FBDlinepoint xcell="33" ycell="14" xincell="1" yincell="8"/>
             </FBDline>
             <FBDline negate="0" idfrom="12" idto="11" pinfrom="0" pinto="1" cutx="50" cuty="50">
                <FBDlinepoint xcell="24" ycell="19" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="25" ycell="19" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="25" ycell="17" xincell="0" yincell="8"/>
+               <FBDlinepoint xcell="24" ycell="19" xincell="14" yincell="8"/>
+               <FBDlinepoint xcell="24" ycell="17" xincell="14" yincell="8"/>
                <FBDlinepoint xcell="26" ycell="17" xincell="1" yincell="8"/>
             </FBDline>
             <FBDline negate="0" idfrom="13" idto="12" pinfrom="0" pinto="0" cutx="50" cuty="50">
                <FBDlinepoint xcell="18" ycell="17" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="18" ycell="17" xincell="8" yincell="8"/>
-               <FBDlinepoint xcell="18" ycell="19" xincell="8" yincell="8"/>
+               <FBDlinepoint xcell="18" ycell="17" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="18" ycell="19" xincell="7" yincell="8"/>
                <FBDlinepoint xcell="19" ycell="19" xincell="1" yincell="8"/>
             </FBDline>
             <FBDline negate="0" idfrom="14" idto="15" pinfrom="0" pinto="1" cutx="50" cuty="50">
                <FBDlinepoint xcell="10" ycell="22" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="10" ycell="22" xincell="8" yincell="8"/>
-               <FBDlinepoint xcell="10" ycell="22" xincell="8" yincell="8"/>
+               <FBDlinepoint xcell="10" ycell="22" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="10" ycell="22" xincell="7" yincell="8"/>
                <FBDlinepoint xcell="11" ycell="22" xincell="1" yincell="8"/>
             </FBDline>
             <FBDline negate="0" idfrom="15" idto="13" pinfrom="0" pinto="2" cutx="50" cuty="50">
                <FBDlinepoint xcell="14" ycell="21" xincell="0" yincell="8"/>
-               <FBDlinepoint xcell="14" ycell="21" xincell="8" yincell="8"/>
-               <FBDlinepoint xcell="14" ycell="19" xincell="8" yincell="8"/>
+               <FBDlinepoint xcell="14" ycell="21" xincell="7" yincell="8"/>
+               <FBDlinepoint xcell="14" ycell="19" xincell="7" yincell="8"/>
                <FBDlinepoint xcell="15" ycell="19" xincell="1" yincell="8"/>
             </FBDline>
             <FBDline negate="0" idfrom="16" idto="9" pinfrom="0" pinto="0" cutx="50" cuty="50">

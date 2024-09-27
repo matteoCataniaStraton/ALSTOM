@@ -24,6 +24,7 @@
    <Folder Name="ST">
       <Program Name="ST_2"/>
    </Folder>
+   <Program Name="ST_1"/>
    <Vars/>
    <Types/>
 </Appli>

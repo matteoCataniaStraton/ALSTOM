@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <K5project version="1.1">
    <programs>
       <pou name="SFC_1" kind="program" period="1" phase="0" lge="SFC">
@@ -14,12 +14,10 @@
          <sourceSFC sx="1" sy="5">
             <SFCstep kind="init" dx="0" dy="0" ref="1" name="GS1" next="GT1">
                <SFCnote ref="1" dx="0" dy="0">inactive:
-nothing done
-               </SFCnote>
+nothing done               </SFCnote>
             </SFCstep>
             <SFCtrans dx="0" dy="1" ref="1" name="GT1" next="GS2">
-               <SFCnote ref="1" dx="0" dy="1">activate with bRun
-               </SFCnote>
+               <SFCnote ref="1" dx="0" dy="1">activate with bRun               </SFCnote>
                <SFCcondition>
                   <sourceLD>
                      <LDrung dx="0" dy="0" sx="3" sy="1" label="">
@@ -32,8 +30,7 @@ nothing done
             <SFCstep kind="default" dx="0" dy="2" ref="2" name="GS2" next="GT2">
                <SFCnote ref="2" dx="0" dy="2">Active:
 - run child program
-- increase counter
-               </SFCnote>
+- increase counter               </SFCnote>
                <SFCaction kind="default">
                   <sourceSTIL>SFC_1_child (N);
                   </sourceSTIL>
@@ -46,8 +43,8 @@ nothing done
                      <FBDvarbox id="4" order="0" dx="1" dy="3" sx="8" sy="1" symbol="1" style="0"/>
                      <FBDline negate="0" idfrom="2" idto="5" pinfrom="0" pinto="0" cutx="50" cuty="50">
                         <FBDlinepoint xcell="14" ycell="2" xincell="0" yincell="8"/>
-                        <FBDlinepoint xcell="14" ycell="2" xincell="8" yincell="8"/>
-                        <FBDlinepoint xcell="14" ycell="2" xincell="8" yincell="8"/>
+                        <FBDlinepoint xcell="14" ycell="2" xincell="7" yincell="8"/>
+                        <FBDlinepoint xcell="14" ycell="2" xincell="7" yincell="8"/>
                         <FBDlinepoint xcell="15" ycell="2" xincell="1" yincell="8"/>
                      </FBDline>
                      <FBDline negate="0" idfrom="3" idto="2" pinfrom="0" pinto="0" cutx="50" cuty="50">
@@ -58,16 +55,15 @@ nothing done
                      </FBDline>
                      <FBDline negate="0" idfrom="4" idto="2" pinfrom="0" pinto="1" cutx="50" cuty="50">
                         <FBDlinepoint xcell="9" ycell="3" xincell="0" yincell="8"/>
-                        <FBDlinepoint xcell="9" ycell="3" xincell="8" yincell="8"/>
-                        <FBDlinepoint xcell="9" ycell="3" xincell="8" yincell="8"/>
+                        <FBDlinepoint xcell="9" ycell="3" xincell="7" yincell="8"/>
+                        <FBDlinepoint xcell="9" ycell="3" xincell="7" yincell="8"/>
                         <FBDlinepoint xcell="10" ycell="3" xincell="1" yincell="8"/>
                      </FBDline>
                   </sourceFBD>
                </SFCaction>
             </SFCstep>
             <SFCtrans dx="0" dy="3" ref="2" name="GT2" next="GS1">
-               <SFCnote ref="2" dx="0" dy="3">deactivate
-               </SFCnote>
+               <SFCnote ref="2" dx="0" dy="3">deactivate               </SFCnote>
                <SFCcondition>
                   <sourceLD>
                      <LDrung dx="0" dy="0" sx="3" sy="1" label="">

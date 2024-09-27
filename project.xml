@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <K5project version="1.1">
    <settings>
+      <utf8comms value="ON"/>
       <triggering cycletiming="0"/>
       <compiler>
          <cmpoptions>
@@ -47,6 +48,7 @@
             <opt name="ccshow" value="ON"/>
             <opt name="cchot" value="OFF"/>
             <opt name="mapuint" value="ON"/>
+            <opt name="stringstoansi" value="ON"/>
          </cmpoptions>
          <cmpsimulcode>
             <opt name="target" value="T5SIMUL"/>
@@ -81,10 +83,75 @@
          <opt name="size_pou" value="0"/>
       </onlinechange>
    <onlinecsts/>
+   <config name="Default.CPO">olc=0
+hot=D8=0,D16=0,D32=0,D64=0,TMR=0,ACTMR=0,STR=0,STRBUF=0,FBI=0,FBIBUF=0,PUB=0,CT=0,POU=0
+tcy=0
+cpo:[Options]
+cpo:configname=Default
+cpo:simul=ON
+cpo:debug=ON
+cpo:ctseg=ON
+cpo:fbdflow=OFF
+cpo:embedsymbols=OFF
+cpo:embedsybcase=OFF
+cpo:warning=ON
+cpo:warniserr=OFF
+cpo:sfcsafe=OFF
+cpo:fbdoptim=OFF
+cpo:ldoptim=OFF
+cpo:checksybconflicts=ON
+cpo:ststrict=OFF
+cpo:ieccheck=OFF
+cpo:tracepousize=OFF
+cpo:checkprofile=OFF
+cpo:safearray=ON
+cpo:norealeq=OFF
+cpo:stan=OFF
+cpo:vsi=OFF
+cpo:fbcheck=OFF
+cpo:noiostep=OFF
+cpo:rtrigno0=OFF
+cpo:ushr=OFF
+cpo:uplall=OFF
+cpo:optbool=OFF
+cpo:loadupl=OFF
+cpo:checkfbdinputs=OFF
+cpo:updext=OFF
+cpo:extdef=OFF
+cpo:password=
+cpo:mwlog=OFF
+cpo:vmheap=0
+cpo:lock=NONE
+cpo:cc=
+cpo:cctooldir=
+cpo:cctarget=
+cpo:ccpure=OFF
+cpo:ccload=OFF
+cpo:ccshow=ON
+cpo:cchot=OFF
+cpo:mapuint=ON
+cpo:StringsToANSI=ON
+cpo:
+cpo:[SimulCode]
+cpo:target=T5SIMUL
+cpo:suffix=.XWS
+cpo:motorolaendian=OFF
+cpo:t5style=ON
+cpo:
+cpo:[TargetCode]
+cpo:target=T5RTI
+cpo:suffix=.XTI
+cpo:motorolaendian=OFF
+cpo:t5style=ON
+cpo:configname=T5RTI
+cpo:comment=Straton T5 runtime (Intel like byte ordering)
+cpo:
+   </config>
    </settings>
    <libraries>
    </libraries>
    <poulist>
+      <pou name="ST_1" sect="begin" lge="ST"/>
       <pou name="Graphics_1_prog" sect="begin" lge="ST"/>
       <pou name="Graphics_2_prog" sect="begin" lge="ST"/>
       <pou name="SFC_1" sect="sfc" lge="SFC"/>
