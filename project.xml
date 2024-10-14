@@ -84,7 +84,7 @@
       </onlinechange>
    <onlinecsts/>
    <config name="Default.CPO">olc=0
-hot=D8=0,D16=0,D32=0,D64=0,TMR=0,ACTMR=0,STR=0,STRBUF=0,FBI=0,FBIBUF=0,PUB=0,CT=0,POU=0
+hot=D8=0,D16=0,D32=0,D64=0,TMR=0,ACTMR=0,STR=0,STRBUF=0,FBI=0,FBIBUF=0,PUB=0,CT=0,POU=0,WSTRING=0
 tcy=0
 cpo:[Options]
 cpo:configname=Default
@@ -130,7 +130,7 @@ cpo:ccload=OFF
 cpo:ccshow=ON
 cpo:cchot=OFF
 cpo:mapuint=ON
-cpo:StringsToANSI=ON
+cpo:stringstoansi=ON
 cpo:
 cpo:[SimulCode]
 cpo:target=T5SIMUL
